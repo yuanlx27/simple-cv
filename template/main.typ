@@ -1,8 +1,4 @@
-// SPDX-License-Identifier: MIT-0
-// Copyright (c) 2026 Langxi Yuan
-// Licensed under MIT No Attribution; see ./LICENSE.
-
-#import "../src/lib.typ": *
+#import "@preview/simple-cv:0.1.0": *
 #show: cv.with(
   name: "Langxi Yuan",
   motto: "An ordinary man with an extraordinary dream.",
