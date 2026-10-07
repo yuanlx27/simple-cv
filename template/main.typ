@@ -68,7 +68,7 @@ that powers this very document you are reading right now.
   It's a CV. It just tells others what you have done and what you can do.
 
 #entry(
-  title: link("https://github.com/yuanlx27/yuanlx27.github.io")[Personal Site],
+  title: link("https://github.com/yuanlx27/site")[Personal Site],
   interval: (
     start: datetime(year: 2026, month: 10, day: 1),
     end: "Present",
