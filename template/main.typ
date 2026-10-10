@@ -45,10 +45,20 @@ System Scheduling and Reasoning Acceleration based on Huawei NPU.
 
 Software development for enterprise and carrier-grade networking platforms,
 focused on common software components across the Data Communications product line.
-- #lorem(12)
-- #lorem(13)
-- #lorem(11)
-- #lorem(14)
+- Maintained an internal headless Linux server.
+  Set up and configured Node, Python, Rust, Go, and Conda (via `pixi`) toolchains.
+- Developed an internal web-based toolchain for
+  optical network terminal (ONT) engineering teams,
+  built on Gradio, Flask and FastAPI with Nginx reverse proxy.
+- Built an AI-code-usage analytics dashboard that
+  ingests team MR data from a GitLab-compatible API,
+  with Python (Flask + Waitress), background threading, Chart.js,
+  and offline-deployed static assets.
+- Took over and migrated a multi-user AI chat web platform onto said server,
+  adding features like scheduled task orchestration, an auto-building Q&A knowledge base,
+  access control (open/whitelist), and AI-generated conversation summaries.
+  Tech stack: TypeScript/Vite/React + Ant Design frontend
+  with a Node.js/Express backend wrapping isolated per-user sandboxes.
 
 == Projects
 
