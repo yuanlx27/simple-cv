@@ -1,4 +1,4 @@
-#import "@preview/simple-cv:0.1.0": *
+#import "../src/lib.typ": *
 #show: cv.with(
   name: "Langxi Yuan",
   motto: "An ordinary man with an extraordinary dream.",
