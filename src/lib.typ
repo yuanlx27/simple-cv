@@ -3,6 +3,14 @@
   motto: "Hello! I am John Smith.",
   body,
 ) = {
+  set document(author: name)
+  set text(
+    font: (
+      (name: "Libertinus Serif", covers: "latin-in-cjk"),
+      (name: "Noto Serif CJK SC"),
+    ),
+  )
+
   show heading.where(level: 2): it => block(
     inset: (bottom: 0.3em),
     stroke: (bottom: 0.5pt),
